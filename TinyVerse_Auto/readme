@@ -1,0 +1,17 @@
+# Installing dependencies:
+pip install -r requirements.txt
+
+2. Open DevTools, go to the Network section, find the info request and extract the session token from the Payload category
+
+3. Insert session_id in config.json
+
+4. Launch main.py
+
+# Установка зависимостей:
+pip install -r requirements.txt
+
+2. Открыть DevTools, перейти в раздел Network, найти POST-запрос info и из категории Payload извлечь session token
+
+3. Вставить session_id в config.json
+
+4. Запустить main.py
